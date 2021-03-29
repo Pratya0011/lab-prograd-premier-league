@@ -5,6 +5,12 @@ let currentTeam = "Manchester FC";
 let trophiesWon = 27;
 
 //Write your function here
+createManager=(managerName, managerAge, currentTeam, trophiesWon)=>{
+const manager=[
+  managerName,managerAge,currentTeam,trophiesWon
+];
+  return(manager);
+}
 
 // Don't edit the following code
 try {
